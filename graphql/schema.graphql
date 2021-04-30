@@ -2,9 +2,9 @@ type Movie {
   id: String!
   title: String!
   rating: Float!
-  summary: String!
+  description_full: String!
   language: String!
-  medium_cover_image: String!
+  medium_cover_image: String
 }
 
 type Query {
